@@ -1,0 +1,47 @@
+.homePage {
+  min-height: 100vh;
+  background: #fff;
+
+  .container {
+    padding: 50px;
+  }
+
+  .filterLabel,
+  .resultsCount {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .filterLabel {
+    margin-bottom: 10px;
+    line-height: 120%;
+  }
+
+  .resultsCount {
+    line-height: 150%;
+    border-bottom: 1px solid #eaeaea;
+  }
+}
+
+.searchSection {
+  margin-bottom: 40px;
+}
+
+.articlesGrid {
+  margin-top: 45px;
+}
+
+.loadingContainer,
+.noResults {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingContainer {
+  min-height: 100vh;
+}
+
+.noResults {
+  padding: 60px 0;
+}
